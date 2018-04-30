@@ -69,6 +69,9 @@ body {
 .products {
     flex: 3;
 }
+.products.loading {
+    opacity: .5;
+}
 
 .cart {
     flex: 2;
