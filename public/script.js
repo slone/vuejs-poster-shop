@@ -30,6 +30,7 @@ new Vue({
 			}
 		},
 		onSubmit: function() {
+			if (this.newSearch.length == 0) return;
 			this.loadingStatus = true;
 			this.$http
 				.get('/search/'.concat(this.newSearch))

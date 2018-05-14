@@ -28,7 +28,7 @@
 				Processing query...
 			</div>
 			<div class="search-results" v-if="!loadingStatus">
-				Found {{ results.length }} results for search term {{ lastSearch }}
+				Found {{ results.length }} results for search term <em>{{ lastSearch }}</em>
 			</div>
 			<div class="product" v-for="(item, index) in items">
 				<div>
